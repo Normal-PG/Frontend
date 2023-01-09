@@ -13,6 +13,7 @@
   "dependencies": {
     "@jridgewell/sourcemap-codec": "1.4.14",
     "@master/css": "^1.37.8",
+    "@vueuse/core": "^9.10.0",
     "ant-design-vue": "^3.2.15",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
