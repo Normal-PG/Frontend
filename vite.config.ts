@@ -4,6 +4,9 @@ import Components from 'unplugin-vue-components/vite'
 import { resolve } from "path"
 import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers'
 import AutoImport from "unplugin-auto-import/vite"
+import Icons from "unplugin-icons/vite"
+import IconsResolver from "unplugin-icons/resolver"
+import ViteComponents from "unplugin-vue-components/vite"
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -20,5 +23,13 @@ export default defineConfig({
     AutoImport({
       imports: ["vue", "vue-router"],
     }),
+    ViteComponents({
+      resolvers: [
+        IconsResolver({
+          prefix: "i",
+        }),
+      ]
+    }),
+    Icons({ autoInstall: true }),
   ],
 })
