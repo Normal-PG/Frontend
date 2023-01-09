@@ -11,12 +11,18 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
+    "@apollo/client": "^3.7.3",
     "@jridgewell/sourcemap-codec": "1.4.14",
     "@master/css": "^1.37.8",
+    "@types/apollo-upload-client": "^17.0.2",
+    "@vue/apollo-composable": "4.0.0-beta.1",
     "@vueuse/core": "^9.10.0",
     "ant-design-vue": "^3.2.15",
+    "apollo-upload-client": "^17.0.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
     "prettier": "^2.8.2",
     "unplugin-auto-import": "^0.12.1",
     "unplugin-icons": "^0.15.1",
