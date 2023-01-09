@@ -11,6 +11,7 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
+    "@ant-design/icons-vue": "^6.1.0",
     "@jridgewell/sourcemap-codec": "1.4.14",
     "@master/css": "^1.37.8",
     "@vueuse/core": "^9.10.0",
